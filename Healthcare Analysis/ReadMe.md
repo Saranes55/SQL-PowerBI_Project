@@ -26,7 +26,10 @@ Key data preparation steps performed using SQL:
    - DUPLICATE RECORD IDENTIFICATION
    - STANDARDIZATION OF COLUMNS (STATUS, GENDER, CITY)
    - DATA TYPE CORRECTIONS
-   - RELATIONAL JOINS BETWEEN TABLE
+   - RELATIONAL JOINS BETWEEN TABLES
+
+## DASHBOARD OVERVIEW
+![Screenshot (495)](https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Dashboard/Healthcare%20Overview.png)
 
 ## 🔍 KEY ANALYSIS QUESTIONS & 📊 POWER BI DASHBOARD DESIGN
 
@@ -39,6 +42,8 @@ Key data preparation steps performed using SQL:
    - TOP 10 FREQUENT VISITING PATIENTS
    - REPEAT VISIT RATE
 
+![Screenshot (495)](https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Dashboard/Patients%20Analysis.png)
+
 ## 📅 APPOINTMENT ANALYSIS
    - TOTAL APPOINTMENTS
    - COMPLETION RATE
@@ -46,6 +51,8 @@ Key data preparation steps performed using SQL:
    - MONTHLY APPOINTMENT TREND
    - APPOINTMENTS BY DAY OF WEEK
    - APPOINTMENT STATUS DISTRIBUTION
+
+![Screenshot (495)](https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Dashboard/Appointments%20Analysis.png)
   
 ## 🩺 DOCTOR ANALYSIS
    - TOTAL DOCTORS
@@ -55,11 +62,15 @@ Key data preparation steps performed using SQL:
    - REVENUE BY DOCTOR
    - DEPARTMENT-WISE DOCTORS
 
+![Screenshot (495)](https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Dashboard/Doctor%20Performance.png)
+
 ## 💊 TREATMENT & DIAGNOSIS ANALYSIS
    - AVERAGE TREATMENT COST
    - REVENUE BY DIAGNOSIS
    - TREATMENTS ARE PROVIDED BY DIAGNOSIS 
-   - AVERAGE TREATMENT COST BY DIAGNOSIS 
+   - AVERAGE TREATMENT COST BY DIAGNOSIS
+
+![Screenshot (495)](https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Dashboard/Diagnosis%20Analysis.png)
 
 ## 💰 BILLING & REVENUE ANALYSIS
    - TOTAL REVENUE
@@ -68,9 +79,51 @@ Key data preparation steps performed using SQL:
    - REVENUE PER CITY
    - REVENUE BY PAYMENT MODES
 
+![Screenshot (495)](https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Dashboard/Billing%20%26%20Rervenue.png)
+
 ## 🛠️ TOOLS & TECHNOLOGIES
    - SQL (MySQL) – Data cleaning, joins, aggregations, KPIs
    - Power BI – Data modeling, DAX, interactive dashboards
+
+## HOW TO IMPORT SQL QUERIES INTO POWER BI
+
+### STEP 1: OPEN POWER BI DESKTOP
+   - LAUNCH POWER BI DESKTOP
+   - CLICK HOME → GET DATA → MYSQL DATABASE
+     (OR SQL SERVER DEPENDING ON YOUR DB)
+
+### STEP 2: CONNECT TO DATABASE
+- ENTER:
+    - SERVER NAME
+    - DATABASE NAME
+- CLICK OK
+
+  STEP 3: CHOOSE IMPORT MODE
+
+SELECT IMPORT
+✔ FAST PERFORMANCE
+✔ BEST FOR PORTFOLIO
+
+STEP 4: USE ADVANCED OPTIONS (IMPORTANT)
+
+EXPAND ADVANCED OPTIONS
+
+PASTE YOUR SQL QUERY IN:
+
+SQL STATEMENT (OPTIONAL)
+
+
+📌 PASTE ONLY ONE FINAL QUERY AT A TIME
+
+STEP 5: LOAD OR TRANSFORM
+
+CLICK TRANSFORM DATA (RECOMMENDED)
+
+RENAME COLUMNS
+
+SET DATA TYPES
+
+CLICK CLOSE & APPLY
 
 ## ✅ CONCLUSION
 
