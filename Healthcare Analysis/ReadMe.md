@@ -98,32 +98,103 @@ Key data preparation steps performed using SQL:
     - DATABASE NAME
 - CLICK OK
 
-  STEP 3: CHOOSE IMPORT MODE
-
-SELECT IMPORT
+### STEP 3: CHOOSE IMPORT MODE
+- SELECT IMPORT
+  
 ✔ FAST PERFORMANCE
+
 ✔ BEST FOR PORTFOLIO
 
-STEP 4: USE ADVANCED OPTIONS (IMPORTANT)
+### STEP 4: USE ADVANCED OPTIONS (IMPORTANT)
+- EXPAND ADVANCED OPTIONS
+- PASTE YOUR SQL QUERY IN:
+  - SQL STATEMENT (OPTIONAL)
+-  PASTE ONLY ONE FINAL QUERY AT A TIME
 
-EXPAND ADVANCED OPTIONS
+### STEP 5: LOAD OR TRANSFORM
+- CLICK TRANSFORM DATA (RECOMMENDED)
+- RENAME COLUMNS
+- SET DATA TYPES
+- CLICK CLOSE & APPLY
 
-PASTE YOUR SQL QUERY IN:
+## Project Structure
 
-SQL STATEMENT (OPTIONAL)
+```
+Healthcare-Analysis-SQL-PowerBI/
+│
+├── 01_Database_Setup/
+│   ├── create_database.sql
+│   ├── create_tables.sql
+│   └── insert_data.sql
+│
+├── 02_Data_Cleaning/
+│   ├── 01_check_null_values.sql
+│   ├── 02_remove_duplicates.sql
+│   ├── 03_validate_age_data.sql
+│   ├── 04_standardize_gender_city.sql
+│   └── 05_data_quality_checks.sql
 
-
-📌 PASTE ONLY ONE FINAL QUERY AT A TIME
-
-STEP 5: LOAD OR TRANSFORM
-
-CLICK TRANSFORM DATA (RECOMMENDED)
-
-RENAME COLUMNS
-
-SET DATA TYPES
-
-CLICK CLOSE & APPLY
+│
+├── 03_executive_overview/
+│   ├── 01_total_revenue.sql
+│   ├── 02_total_patients.sql
+│   ├── 03_total_doctors.sql
+│   ├── 04_average_bill_amount.sql
+│   └── 05_total_appointments.sql
+│   ├── 06_department_by_revanue.sql
+│   ├── 07_monthly_revenue_trends.sql
+│   ├── 08_appointment_status.sql
+│   └── 09_monthly_appointment_trend.sql
+│
+├── 03_Patient_Analysis/
+│   ├── 01_total_patients.sql
+│   ├── 02_average_patient_age.sql
+│   ├── 03_age_group_distribution.sql
+│   ├── 04_gender_distribution.sql
+│   ├── 05_patient_count_by_city.sql
+│   ├── 06_top_10_frequent_patients.sql
+│   └── 07_repeat_visit_rate.sql
+│
+├── 04_Appointment_Analysis/
+│   ├── 01_total_appointments.sql
+│   ├── 02_monthly_appointment_trend.sql
+│   ├── 03_appointments_by_day_of_week.sql
+│   ├── 04_appointment_status_distribution.sql
+│   ├── 05_completion_rate.sql
+│   └── 06_cancellation_rate.sql
+│
+├── 05_Doctor_Department_Analysis/
+│   ├── 01_total_doctors.sql
+│   ├── 02_average_appointmnet_per_doctor.sql
+│   ├── 03_average_revenue_per_doctor.sql
+│   ├── 04_.revenue_by_doctor.sql
+│   └── 05_department_doctors.sql
+│
+├── 06_Treatment_Diagnosis_Analysis/
+│   ├── 01_average_treatment_cost.sql
+│   ├── 02_treatments_per_diagnosis.sql
+│   ├── 03_revenue_by_diagnosis.sql
+│   └── 04_average_treatment_cost_by_diagnosis.sql
+│
+├── 07_Billing_revenue_Analysis/
+│   ├── 01_total_revenue.sql
+│   ├── 02_monthly_revenue_trend.sql
+│   ├── 03_average_revenue_per_city.sql
+│   ├── 04_revenue_by_payment_mode.sql
+│   └── 05_revenue_by_city.sql
+│
+├── 08_PowerBI_Queries/
+│   ├── executive_overview.sql
+│   ├── patient_dashboard.sql
+│   ├── appointment_dashboard.sql
+│   ├── doctor_dashboard.sql
+│   ├── treatment_dashboard.sql
+│   └── revenue_dashboard.sql
+│
+│
+├── README.md
+└── .gitignore
+```
 
 ## ✅ CONCLUSION
 
