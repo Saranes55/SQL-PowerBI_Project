@@ -8,3 +8,4 @@ This project focuses on analyzing healthcare operational, patient, doctor, appoi
 - <a href="https://github.com/Saranes55/SQL-PowerBI_Project/tree/main/Healthcare%20Analysis/Dashboard">Dashboards</a>
 - <a href="https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Healthcare%20Analysis.sql">SQL Query</a> 
 - <a href="https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/Healthcare%20Analysis.pbix">PowerBI File</a>
+- <a href="https://github.com/Saranes55/SQL-PowerBI_Project/blob/main/Healthcare%20Analysis/ReadMe.md">Project Description</a>
