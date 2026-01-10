@@ -192,8 +192,8 @@ Healthcare-Analysis-SQL-PowerBI/
 │   └── revenue_dashboard.sql
 │
 │
-├── README.md
-└── .gitignore
+└──  README.md
+
 ```
 
 ## ✅ CONCLUSION
